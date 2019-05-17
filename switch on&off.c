@@ -2,7 +2,7 @@
  * SWITCH SPEEED.c
  *
  * Created: 15-May-19 2:53:07 PM
- * Author : ROHITH
+ * Author : nikhil
  */ 
 
 #include <avr/io.h>
