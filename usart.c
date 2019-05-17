@@ -2,7 +2,7 @@
  * interfaceusartavr.c
  *
  * Created: 16-05-2019 11:13:19
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 #define F_CPU 16000000UL			/* Define frequency here its 12MHz */
