@@ -2,7 +2,7 @@
  * SWITCH MOTOR.c
  *
  * Created: 15-May-19 2:39:35 PM
- * Author : ROHITH
+ * Author : nikhil
  */ 
 
 #include <avr/io.h>
