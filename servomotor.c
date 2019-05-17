@@ -2,7 +2,7 @@
  * servointerfa.c
  *
  * Created: 16-05-2019 14:14:47
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 #define F_CPU 16000000UL		/* Define CPU Frequency e.g. here its 8MHz */
@@ -21,11 +21,11 @@ int main(void)
 	TCCR1B = (1<<WGM12)|(1<<WGM13)|(1<<CS10)|(1<<CS11);
 	while(1)
 	{
-		OCR1A = 97;	/* Set servo shaft at -90° position */
+		OCR1A = 97;	/* Set servo shaft at -90Â° position */
 		_delay_ms(1500);
-		OCR1A = 280;	/* Set servo shaft at 0° position */
+		OCR1A = 280;	/* Set servo shaft at 0Â° position */
 		_delay_ms(1500);
-		OCR1A = 535;	/* Set servo at +90° position */
+		OCR1A = 535;	/* Set servo at +90Â° position */
 		_delay_ms(1500);
 	}
 }
