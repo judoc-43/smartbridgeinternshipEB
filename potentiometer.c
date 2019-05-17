@@ -2,7 +2,7 @@
  * POTENTIOMETER.c
  *
  * Created: 15-May-19 12:02:13 PM
- * Author : ROHITH
+ * Author : nikhil
  */ 
 
 #include <avr/io.h>
