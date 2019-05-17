@@ -2,7 +2,7 @@
  * lcddisplay.c
  *
  * Created: 10-05-2019 14:33:25
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 #ifndef F_CPU
