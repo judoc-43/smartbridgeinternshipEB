@@ -2,7 +2,7 @@
  * lm35hlcd.c
  *
  * Created: 13-05-2019 14:25:12
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 
