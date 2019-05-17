@@ -2,7 +2,7 @@
  * STEPPER MOTOR.c
  *
  * Created: 16-May-19 3:26:21 PM
- * Author : ROHITH
+ * Author : nikhil
  */ 
 #ifndef F_CPU
 #define F_CPU 16000000UL
