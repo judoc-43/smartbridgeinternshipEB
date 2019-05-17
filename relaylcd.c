@@ -2,7 +2,7 @@
  * relaylcd.c
  *
  * Created: 14-05-2019 14:32:26
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 #ifndef  F_CPU
