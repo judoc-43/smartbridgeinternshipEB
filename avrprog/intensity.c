@@ -2,7 +2,7 @@
  * GccApplication2.c
  *
  * Created: 14-05-2019 10:10:41
- * Author : sandeep
+ * Author : nikhil
  */ 
 
 #ifndef F_CPU
