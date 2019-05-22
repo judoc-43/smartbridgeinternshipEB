@@ -18,9 +18,9 @@ void send_a_string(char *string_of_characters);
 
 void PWM_init()
 {
-	/*set fast PWM mode with non-inverted output*/
+	
 	TCCR0 = (1<<WGM00) | (1<<WGM01) | (1<<COM01) | (1<<CS00);
-	DDRB|=(1<<PB3);  /*set OC0 pin as output*/
+	DDRB|=(1<<PB3);
 }
 int main(void)
 {
@@ -35,7 +35,7 @@ int main(void)
 	
 	int16_t COUNTA = 0;
 	char SHOWA [3];
-	send_a_command(0x01); //Clear Screen 0x01 = 00000001
+	send_a_command(0x01); 
 	_delay_ms(50);
 	send_a_command(0x38);
 	_delay_ms(50);
