@@ -6,7 +6,7 @@
  */ 
 
 #include <avr/io.h>
-#define F_CPU 1600000
+#define F_CPU 16000000
 #include <util/delay.h>
 #include <stdlib.h>
 #define enable            5
